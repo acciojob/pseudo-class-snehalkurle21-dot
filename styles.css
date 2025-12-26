@@ -1,17 +1,14 @@
-/* Main container */
 #container {
     margin: 20px;
 }
 
-/* Before pseudo-element */
-#container::before {
+#container:before {
     content: "Before Element ";
     color: #f00;
     font-size: 20px;
 }
 
-/* After pseudo-element */
-#container::after {
+#container:after {
     content: " After Element";
     color: #f00;
     font-size: 20px;
